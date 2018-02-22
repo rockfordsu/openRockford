@@ -6,4 +6,4 @@
 	===========================
 */
 
-load("_openRockford/scripts/_core.js");
+require("_openRockford/scripts/_core.js");
