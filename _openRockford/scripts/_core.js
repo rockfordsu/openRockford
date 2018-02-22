@@ -6,13 +6,13 @@
 	===========================
 */
 
-const print = function (text) {
+var print = function (text) {
 	java.lang.System.out.print(
 		"[_openRockford] " + text
 	);
 
 	return true;
-}
+};
 
 try {
 
