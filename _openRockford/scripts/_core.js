@@ -15,7 +15,7 @@ var print = function (text) {
 };
 
 try {
-
+	console.log(cxzc);
 } catch(e) {
 	print("Error in "+__filename);
 }
