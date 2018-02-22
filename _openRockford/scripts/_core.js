@@ -21,8 +21,8 @@ try {
 } catch(e) {
 	print("===============================================").
 		_("").
-		_("[ " + e.name + " ]" + e.message).
-		_("Error in " + e.fileName + "[ " + e.lineNumber + ":" + e.columnNumber + " ]").
-		_("").
+		_("[ " + e.name + " ] " + e.message).
+		_("Error in " + e.fileName + " [ " + e.lineNumber + ":" + e.columnNumber + " ]").
+		_(e.stack).
 		_("===============================================");
 }
