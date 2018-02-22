@@ -11,11 +11,14 @@ var print = function (text) {
 		"[_openRockford] " + text
 	);
 
-	return true;
+	return print;
 };
 
 try {
 	console.log(cxzc);
 } catch(e) {
+	print("===============================================").("porn");
+	print("");
+	print(e.message);
 	print("Error in "+__filename);
 }
